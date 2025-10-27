@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Cabecera y footer */
+.Principio, .Final {
+    flex: 0 0 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(90deg, #000000, #230430);
+}
+
+.Final{
+    background: linear-gradient(-90deg, #000000, #230430);
+}
+/* Sección central */
+.Grid {
+    flex: 1;
+    display: flex;
+    background-image: url(../images/thumb-1920-119151.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Menú lateral */
+.Menu-Container {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.menu a {
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #2a2a72;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #47083d;
+    transform: scale(1.05);
+}
+
+/* Galería Pokémon compacta */
+.Main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Tarjetas Pokémon */
+.pokemon-card {
+    background-color: rgba(138, 19, 207, 0.6);
+    border-radius: 12px;
+    text-align: center;
+    /* Ocupa toda la celda */
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-card p, .pokemon-card h2{
+    text-shadow: -1px -1px 2px rgb(255, 3, 234);
+    overflow-wrap: anywhere;
+}
+.pokemon-card h2 {
+    font-size: 2vw; /* se adapta al ancho de la pantalla */
+}
+.pokemon-card p {
+    font-size: 1.5vw;
+}
+
+
+.pokemon-card img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-5px) scale(1.25);
+    box-shadow: 0 6px 12px rgb(151, 22, 12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}

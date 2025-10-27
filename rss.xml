@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+    <title>Título de tu Web o Blog</title>
+    <link>https://www.tuweb.com</link>
+    <description>Breve descripción de qué trata tu feed.</description>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 27 Oct 2025 18:00:00 +0000</lastBuildDate>
+    <ttl>60</ttl>
+
+    <item>
+        <title>Título del Primer Artículo</title>
+        <link>http://127.0.0.1:5500/index.html</link>
+        <description>Breve resumen o los primeros párrafos del artículo.</description>
+        <pubDate>Mon, 27 Oct 2025 18:00:00 +0000</pubDate>
+        <guid>http://127.0.0.1:5500/index.html</guid>
+    </item>
+
+    <item>
+        <title>Título del Segundo Artículo</title>
+        <link>http://127.0.0.1:5500/index.html</link>
+        <description>Breve resumen o los primeros párrafos del segundo artículo.</description>
+        <pubDate>Sun, 26 Oct 2025 10:30:00 +0000</pubDate>
+        <guid>http://127.0.0.1:5500/index.html</guid>
+    </item>
+
+</channel>
+</rss>
