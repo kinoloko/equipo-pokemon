@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>Noticias del Equipo Pokémon (Mi Blog)</title>
 <link>https://kinoloko.github.io/equipo-pokemon/</link>
-<description>Este es mi feed de prueba para el lector Inoreader.</description>
+<description>Este es mi feed de prueba con formato e imágenes para Inoreader.</description>
 <language>es-es</language>
-<lastBuildDate>Mon, 27 Oct 2025 19:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Oct 2025 19:15:00 +0000</lastBuildDate>
 <ttl>60</ttl>
 
     <item>
-        <title>Título del Primer Artículo</title>
-        <link>https://kinoloko.github.io/equipo-pokemon/index.html</link>
-        <description>Breve resumen o los primeros párrafos del artículo. ¡Recuerda, esta es la URL pública!</description>
-        <pubDate>Mon, 27 Oct 2025 18:00:00 +0000</pubDate>
-        <guid>https://kinoloko.github.io/equipo-pokemon/articulo1</guid>
-    </item>
-
-    <item>
-        <title>Título del Segundo Artículo</title>
-        <link>https://kinoloko.github.io/equipo-pokemon/index.html</link>
-        <description>Breve resumen del segundo artículo. Asegúrate de cambiar la URL en el futuro si tienes más páginas.</description>
-        <pubDate>Sun, 26 Oct 2025 10:30:00 +0000</pubDate>
-        <guid>https://kinoloko.github.io/equipo-pokemon/articulo2</guid>
+        <title>¡Análisis Exclusivo! El Poder de Pikachu y Charizard en Equipo</title>
+        <link>https://kinoloko.github.io/equipo-pokemon/analisis.html</link>
+        <pubDate>Mon, 27 Oct 2025 19:10:00 +0000</pubDate>
+        <guid>https://kinoloko.github.io/equipo-pokemon/articulo-analisis-pkcz</guid>
+        
+        <description>
+            <![CDATA[
+                <p>¡Hola, Entrenadores! Hoy analizamos una de las combinaciones más icónicas y potentes que podemos llevar al combate: la sinergia entre **Pikachu** y **Charizard**.</p>
+                
+                <hr> 
+                
+                <figure>
+                    <img src="https://via.placeholder.com/600x300?text=Pikachu+y+Charizard+Listos+para+el+Combate" alt="Pikachu y Charizard juntos">
+                    <figcaption>Una pareja legendaria en el campo de batalla.</figcaption>
+                </figure>
+                
+                <h2>Características Destacadas</h2>
+                <ol>
+                    <li><strong>Cobertura de Tipos:</strong> El tipo Fuego/Volador de Charizard compensa la debilidad de Pikachu al Tierra.</li>
+                    <li><strong>Daño Masivo:</strong> Charizard aporta el daño de área, mientras que Pikachu puede usar ataques rápidos para aturdir.</li>
+                    <li><strong>Estrategia de Movilidad:</strong> Ambos son Pokémon rápidos, lo que les da ventaja de iniciativa.</li>
+                </ol>
+                
+                <p>El artículo completo incluye análisis de movimientos y estrategias de *counter*.</p>
+                
+                <p>Para más detalles, visita nuestra sección de <a href="https://kinoloko.github.io/equipo-pokemon/estrategias.html">Estrategias Avanzadas</a>.</p>
+            ]]>
+        </description>
     </item>
 
 </channel>
